@@ -3,7 +3,7 @@ pipeline {
         label "ubuntu-agent"
     }
     tools {
-        jdk 'Java11'
+        jdk 'Java17'
         maven 'Maven3'
     }
     stages {
